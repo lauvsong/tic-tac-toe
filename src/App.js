@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import './tictactoe.css'
+import Game from './Game.js'
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <Game></Game>
+      </main>
     </div>
   );
 }
